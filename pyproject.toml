@@ -1,0 +1,11 @@
+[project]
+name = "yandex-notification-func"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dateutil==2.9.0",
+    "requests==2.32.4",
+    "ruff>=0.12.11",
+]
