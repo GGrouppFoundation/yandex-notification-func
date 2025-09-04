@@ -1,0 +1,26 @@
+line-length = 120
+
+[format]
+quote-style = "double"
+indent-style = "space"
+
+[lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+fixable = ["I", "UP"]
+
+[lint.pydocstyle]
+ignore-decorators = ["typing.overload"]
+
